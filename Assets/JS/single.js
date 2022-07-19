@@ -23,7 +23,7 @@ var getRepoName = function () {
     else{
         
         // if no repo was given, redirect to the homepage
-        document.location.replace("./index.html");
+       // document.location.replace("./index.html");
           
     }
 
@@ -50,7 +50,7 @@ var getRepoIssues = function(repo) {
         }
         else {
             //if not successful, redirect to homepage
-            document.location.replace("./index.html");
+            //document.location.replace("./index.html");
         }
 
         });
